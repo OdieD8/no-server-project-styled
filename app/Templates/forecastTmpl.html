@@ -1,0 +1,91 @@
+	<header id="header" class="alt">
+				<h1><strong><a href="index.html">Weather</a></strong> by Odie</h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="http://openweathermap.org/">Open Weather Map</a></li>
+						<li><a href="http://weather.com/">Weather.com</a></li>
+						<li><a href="http://www.wunderground.com/">WUnderground</a></li>
+					</ul>
+				</nav>
+	</header>
+
+			<section id="forecast-banner">
+				<h2>7-Day Forecast</h2>
+				<h3>{{city}}</h3>
+				<div class="day-container">
+				<div id="day">{{weatherForecastData.day[0]}}, {{weatherForecastData.month[0]}} {{weatherForecastData.date[0]}}</div>
+			<p>Low: {{weatherForecastData.list[0].temp.min}}&deg</br>
+			High: {{weatherForecastData.list[0].temp.max}}&deg</br>
+			Weather: {{weatherForecastData.list[0].weather[0].main}}</br>
+			Wind: {{weatherForecastData.list[0].speed}}</p>
+				</div>
+				
+			<div class="day-container">
+			<div id="day">{{weatherForecastData.day[1]}}, {{weatherForecastData.month[1]}} {{weatherForecastData.date[1]}}</div>
+			<p>Low: {{weatherForecastData.list[1].temp.min}}&deg</br>
+			High: {{weatherForecastData.list[1].temp.max}}&deg</br>
+			Weather: {{weatherForecastData.list[1].weather[0].main}}</br>
+			Wind: {{weatherForecastData.list[1].speed}}</p>
+			</div>
+			 
+ 			<div class="day-container">
+			<div id="day">{{weatherForecastData.day[2]}}, {{weatherForecastData.month[2]}} {{weatherForecastData.date[2]}}</div>
+			<p>Low: {{weatherForecastData.list[2].temp.min}}&deg</br>
+			High: {{weatherForecastData.list[2].temp.max}}&deg</br>
+			Weather: {{weatherForecastData.list[2].weather[0].main}}</br>
+			Wind: {{weatherForecastData.list[2].speed}}</p>
+ 			</div>
+			
+			<div class="day-container">
+			<div id="day">{{weatherForecastData.day[3]}}, {{weatherForecastData.month[3]}} {{weatherForecastData.date[3]}}</div>
+			<p>Low: {{weatherForecastData.list[3].temp.min}}&deg</br>
+			High: {{weatherForecastData.list[3].temp.max}}&deg</br>
+			Weather: {{weatherForecastData.list[3].weather[0].main}}</br>
+			Wind: {{weatherForecastData.list[3].speed}}</p>
+			</div>
+			
+			<div class="day-container">
+			<div id="day">{{weatherForecastData.day[4]}}, {{weatherForecastData.month[4]}} {{weatherForecastData.date[4]}}</div>
+			<p>Low: {{weatherForecastData.list[4].temp.min}}&deg</br>
+			High: {{weatherForecastData.list[4].temp.max}}&deg</br>
+			Weather: {{weatherForecastData.list[4].weather[0].main}}</br>
+			Wind: {{weatherForecastData.list[4].speed}}</p>
+			</div>
+			
+			<div class="day-container">
+			<div id="day">{{weatherForecastData.day[5]}}, {{weatherForecastData.month[5]}} {{weatherForecastData.date[5]}}</div>
+			<p>Low: {{weatherForecastData.list[5].temp.min}}&deg</br>
+			High: {{weatherForecastData.list[5].temp.max}}&deg</br>
+			Weather: {{weatherForecastData.list[5].weather[0].main}}</br>
+			Wind: {{weatherForecastData.list[5].speed}}</p>
+			</div>
+			
+			<div class="day-container">
+			<div id="day">{{weatherForecastData.day[6]}}, {{weatherForecastData.month[6]}} {{weatherForecastData.date[6]}}</div>
+			<p>Low: {{weatherForecastData.list[6].temp.min}}&deg</br>
+			High: {{weatherForecastData.list[6].temp.max}}&deg</br>
+			Weather: {{weatherForecastData.list[6].weather[0].main}}</br>
+			Wind: {{weatherForecastData.list[6].speed}}</p>
+			</div>
+			
+				<ul class="actions">
+					<li><a href="#/current-weather/{{city}}" class="button special big">Current</a></li>
+                    <li><a href="#/home" class="button special big">Home</a></li>
+				</ul>
+			</section>
+			
+			<footer id="footer">
+				<div class="container">
+					<!--<ul class="icons">
+						<li><a href="#" class="icon fa-facebook"></a></li>
+						<li><a href="#" class="icon fa-twitter"></a></li>
+						<li><a href="#" class="icon fa-instagram"></a></li>
+					</ul>-->
+					<ul class="copyright">
+						<li>&copy; OD-Werks</li>
+						<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+						<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+					</ul>
+				</div>
+			</footer>
+
