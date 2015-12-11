@@ -35,10 +35,10 @@
 		line-height: 2em;
 	}
 
-	a {
+	/*a {
 		color: #f32853;
 		text-decoration: underline;
-	}
+	}*/
 
 		a:hover {
 			text-decoration: none;
